@@ -22,8 +22,10 @@ Take a look at my [résumé][gpm] to see the result.
     	Time::Piece
 
 ## acknowledgments
-
 I borrowed the html from this website <http://alexking.org/projects/html-resume-template/demo/resume.php>
+
 I hope he doesn't mind!
+
+In the future I'm going to write my own html template. Feel free to contribute improving the **html.template** file!
 
 [gpm]: <http://gabriel.searom.net/>
