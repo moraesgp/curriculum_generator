@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>__NAME__</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="screen.css" />
+</head>
+
+<body>
+
+<h1>__NAME__</h1>
+
+<p id="bio_left">__TEL__<br />__EMAIL__</p>
+<p id="bio_right">__ADDRESS_HTML__</p>
+
+<h2>__OBJECTIVE_TITLE__</h2>
+<p class="data">__OBJECTIVE__</p>
+
+<h2>__EXPERIENCE_TITLE__</h2>
+__JOBS__
+<h2>__SKILLS_TITLE__</h2>
+<ul>
+__SKILLS__
+</ul>
+
+<h2>__EDUCATION_TITLE__</h2>
+<ul>
+__EDUCATION__
+</ul>
+
+<p id="meta">
+	<span><a href="__WEBSITE__">HOME</a> | <span><a href="__HTML_LINK__">HTML version</a> | <a href="__TXT_LINK__">Plain Text (.txt) version</a></span>
+</p>
+<br /><hr />
+<span class="right-small">generated on __BUILD_TIME__<br />Visit __WEBSITE__ for an updated version</span>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<div class="job">
+	<p class="date">__PERIOD__</p>
+	<div class="job_data">
+		<h3>__NAME__</h3>
+		<p class="location">__LOCATION__</p>
+		<p class="company">__DESC__</p>
+		<p class="position">__MY_POSITION__</p>
+		<ul>
+__RESPS_LIST__
+		</ul>
+		&nbsp;
+	</div>
+</div>
