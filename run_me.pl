@@ -259,7 +259,7 @@ foreach my $lang(keys %langs) {
 		}
 		$html =~ s/__JOBS__/@jobs/g;
 	}
-	foreach my $key(keys $langs{$lang}->{other_stuff}) {
+	foreach my $key(keys %{ $langs{$lang}->{other_stuff} }) {
 		my $html_list = "<li>";
 		$html_list .= join "</li><li>", (split "\n", $langs{$lang}->{other_stuff}->{$key});
 		$html_list .= "</li>\n";
