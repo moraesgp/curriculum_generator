@@ -237,7 +237,10 @@ foreach my $lang(keys %langs) {
 	my $html = $htmltemplate;
 	foreach(keys %{ $langs{$lang} }) {
 		next unless(/^__/);
-		$html =~ s/$_/$langs{$lang}->{$_}/g;
+		# replate new lines with <br />
+		my $tempdata = $langs{$lang}->{$_};
+		$tempdata =~ s/\n/<br \/>/g;
+		$html =~ s/$_/$tempdata/g;
 	}
 	if(defined $langs{$lang}->{companies}) {
 		my @jobs;
